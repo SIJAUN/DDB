@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="444.0" prefWidth="430.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ddb.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Text fill="#1bb238" strokeType="OUTSIDE" strokeWidth="0.0" text="Bonjour, choisir votre boisson !" />
+   <ComboBox fx:id="Comboxboisson" prefWidth="150.0" />
+   <Button mnemonicParsing="false" onAction="#onHelloButtonClick" text="Valider" />
+
+
+
+    <Label fx:id="welcomeText" />
+   <ProgressBar prefWidth="200.0" progress="0.58" />
+</VBox>
